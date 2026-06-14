@@ -47,6 +47,10 @@ Works as a [Claude Code](https://claude.ai/claude-code) plugin **or** as a fully
 ## 🆓 Standalone Mode — No Subscription Required
 
 **You no longer need Claude Code, Claude Pro, or any paid AI subscription.**
+Pre-requisites script: 
+```bash
+sudo apt update && sudo apt install -y nmap && GOBIN="$HOME/go/bin" go install github.com/projectdiscovery/httpx/cmd/httpx@latest github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest github.com/lc/gau/v2/cmd/gau@latest github.com/ffuf/ffuf/v2/cmd/ffuf@latest github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+```
 
 Install once, use the `bughunter` command from any terminal on your machine:
 
